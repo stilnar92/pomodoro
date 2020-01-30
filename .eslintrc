@@ -1,0 +1,15 @@
+{
+  "extends": "react-app",
+  "plugins": [
+    "react app",
+    "plugin:jsx-a11y/strict",
+    "prettier",
+    "react-hooks"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-shadow": "warn",
+    "no-shadow-restricted-names": "error",
+    "no-console": "warn"
+  }
+}
